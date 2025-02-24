@@ -1,0 +1,20 @@
+Notes:
+
+Feature requests
+
+1. Add options to output PNG or JPEG file
+2. Add a function to get metadata from orthomozaic image
+3. Add function to get information from Model
+4. Enable feature to detect between YOLOv8 and 11
+5. Add function detect if segment argument is passed and detect model is loaded
+6. Crete an icon for the package 
+7. Generate different shapes for each class (optional by the user)
+
+
+Features
+1. 
+2. 
+
+Limitations
+1. No windows compatability yet 
+2.
