@@ -19,7 +19,7 @@ setup(
 	'shapely', # 2.0.7
     ],
     description="A Python library for visualizing YOLO detections and segmented instances on large orthomosaic images, with the ability to generate shapefiles for GIS integration",  # A brief description of your package
-    long_description=open('README.md').read(),  # Long description (usually from README file)
+    long_description=open('README.md','r').read(),  # Long description (usually from README file)
     long_description_content_type="text/markdown",  # The type of content in README (markdown)
     author="Jithin Mathew",  # Your name
     url="https://github.com/jithin8mathew/YOLOmosaic",  # URL for your project (GitHub or similar)
@@ -30,6 +30,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',  # The minimum Python version required for your package
+    license="MIT",
     entry_points={
     'console_scripts': [
         'ymosaic=yolomosaic.cli:main',  # Make sure this points to the correct path

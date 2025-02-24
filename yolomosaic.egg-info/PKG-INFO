@@ -4,6 +4,7 @@ Version: 0.1.0
 Summary: A Python library for visualizing YOLO detections and segmented instances on large orthomosaic images, with the ability to generate shapefiles for GIS integration
 Home-page: https://github.com/jithin8mathew/YOLOmosaic
 Author: Jithin Mathew
+License: MIT
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.7
 Classifier: License :: OSI Approved :: MIT License
