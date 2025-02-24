@@ -1,6 +1,19 @@
 # YOLOmosaic
 A Python library for visualizing YOLO detections and segmented instances on large orthomosaic images, with the ability to generate shapefiles for GIS integration
 
+
+### NOTE
+
+This project uses GDAL==3.4.1, to install GDAL on ubuntu. Use the following command: 
+
+```
+sudo apt-get install libgdal-dev
+```
+Proceed with 
+```
+pip3 install GDAL==3.4.1
+```
+
 #### Example usage under CLI mode
 
 ```
